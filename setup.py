@@ -26,7 +26,7 @@ cur.execute(sql)
 
 sql ="""
 CREATE TABLE habitaciones 
-           (id serial PRIMARY KEY, tipo varchar(40), numero integer, estado integer);
+           (id serial PRIMARY KEY, tipo varchar(40), numero integer, estado varchar(15));
 """
 
 cur.execute(sql)
