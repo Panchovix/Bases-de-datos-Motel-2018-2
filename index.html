@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Motel los Troncos</title>
+  <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+ <link rel="icon" type="image/png" href="img/favicon.png" sizes="16x16">
+ <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+ <link rel="stylesheet" type="text/css" href="css/estilos.css">
+ <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+
+
+    <script src="//code.jquery.com/jquery-1.10.1.min.js"></script>
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+        <link href="../css/bootstrap-timepicker.min.css" rel="stylesheet">
+        <script src="../js/bootstrap-timepicker.js"></script>
+</head>
+
+<body>
+<nav class="navbar navbar-toggleable-md navbar-inverse 
+ fixed-top  ">
+    
+    <button class="navbar-toggler navbar-toggler-right " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      		<span class="navbar-toggler-icon"></span>
+    </button>
+    <a href="#" class="navbar-brand "><img src="img/motel.jpg" style="max-width: 100px;" /></a> 
+     <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class=" navbar-nav ml-auto ">
+            <li class=" nav-item active ">
+            		<a  data-scroll="data-scroll" href="./login.html" class="nav-link ">Login<span class="sr-only">(current)</span></a>
+            </li>
+         
+
+            <li class="nav-item">
+            		<a data-scroll="data-scroll" href="./habitaciones.html" class="nav-link">Estado Actual</a>
+            </li>
+            
+            <li class="nav-item">
+              <a data-scroll="data-scroll" href="./ingreso_cliente.html" class="nav-link">Ingreso cliente</a>
+            </li>
+
+        </ul>
+    </div> 
+    </nav>
+
+<div class="container-fluid pt-10" style="height: 100vh;padding-top: 100px">
+	<h2 style="padding-top: 40px; color: black">Nueva habitacion.. </h2>
+	<p><a href="./habitaciones.html">click to Estado habitaciones</a></p>
+   <div class="row">
+
+			<div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 ">
+	    <h5 style="color: black">Tipo</h5>
+	   <select   class=" form-group form-label form-control" >
+	  <option>Tipo de habitacion</option>
+	  <option>simple</option>
+	  <option>jacuzzi</option>
+		</select>
+		</div>
+    	
+
+
+		<div class="col-xs-6 col-sm-6 col-md-6 col-lg-4">
+				<h5 style="color: black">Hora de ingreso</h5>
+				<input class=" form-control" id="inputSeleccionado" type="text" value="ej: 21:50">
+		</div>
+		<div class="col-xs-6 col-sm-6 col-md-6 col-lg-4">
+				<h5 style="color: black">fecha</h5>
+				<input class=" form-control" id="inputSeleccionado" type="text" value="ej: 21:50">
+		</div>
+	    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3">
+	    	
+	   <h5 style="color: black">Habitacion</h5>
+	  <select  class=" form-group form-label form-control">
+	  <option>Numero de la habitacion</option>
+	  <option>1</option>
+	  <option>2</option>
+	  <option>3</option>
+	  <option>4</option>
+	  <option>5</option>
+	  <option>6</option>
+	  <option>7</option>
+	  <option>8</option>
+	  <option>9</option>
+	  <option>10</option>
+	  <option>11</option>
+	  <option>12</option>
+	  <option>13</option>
+	  <option>14</option>
+	  <option>15</option>
+	  <option>16</option>
+	  <option>17</option>
+	  <option>18</option>
+	  <option>19</option>
+	  <option>20</option>
+	  <option>21</option>
+	  </select>
+	    </div>		
+		 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-4">
+		 	
+		<h5 style="color: black">Cantidad de horas</h5>
+		  <select  class=" form-group form-label form-control">
+		  <option>numero de horas</option>
+		  <option>2 horas</option>
+		  <option>6 horas</option>
+		  <option>10 horas</option>
+		  <option>12 horas</option>
+		  <option>4 horas</option>
+		  </select>
+		 </div>
+		<div class="col-xs-6 col-sm-6 col-md-6 col-lg-5">
+		<h5 style="color: black">Precio</h5>
+		  <select  class="col-6	 form-group form-label form-control">
+			  <option>Precio</option>
+			  <option>$11.800</option>
+			  <option>$18.000</option>
+			  <option>$20.000</option>
+			  <option>$26.900</option>
+			  <option>$32.000</option>
+		  </select>
+    	</div>
+  
+  
+
+	    <h5 class="ml-3" style="color: black">Cortesia</h5>
+		<div class="col-12 ml-1 row">
+
+		  <select  class="col-xs-3 col-sm-3 col-md-3 col-lg-4 form-group form-label form-control">
+		  <option>Bebida</option>
+			  <option>Sour</option>
+			  <option>Roncola</option>
+			  <option>Piscola</option>
+			  <option>Gin con gin</option>
+			  <option>Primavera</option>
+			  <option>Martini</option>
+			  <option>te</option>
+			  <option>cafe</option>
+			  </select>
+			  <select  class="col-xs-3 col-sm-3 col-md-3 col-lg-4 ml-4 form-group form-label form-control">
+		  <option>Bebida</option>
+			  <option>Sour</option>
+			  <option>Roncola</option>
+			  <option>Piscola</option>
+			  <option>Gin con gin</option>
+			  <option>Primavera</option>
+			  <option>Martini</option>
+			  <option>te</option>
+			  <option>cafe</option>
+			  </select>
+			  <label style="color: black" class="col-xs-12 col-sm-12 col-md-12 col-lg-3 checkbox-inline">
+			  <input type="checkbox" id="checkboxEnLinea3" value="opcion_3">  No incluye.
+			</label>
+	 
+  		</div>
+	
+	
+
+
+	<div class="ml-auto col-12">
+	   
+	         <a href="./index.html" class="btn btn-info offset-5 padding-top:40px" role="button">Añadir</a>
+	</div>
+
+</div>
+	</div>
+
+
+
+</body>
+  <footer>
+  <div class="container-fluid text-center" style="background-color: grey" >
+    <p class="copyright_text">&copy; copyright 2018<br>
+    designed and developed by Los rompe telitas </p >    
+  </div>
+
+
+</footer>
+
+   <!-- Bootstrap core JavaScript
+      ================================================== -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSá/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+
+
+
+  </body>
+</html>
