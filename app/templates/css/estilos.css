@@ -1,0 +1,36 @@
+@font-face{
+	font-family: fuentesita;
+	src: url(fonts/fuentesita.otf);
+}
+.navbar {
+	
+	background: rgba(0,0,0,.8);
+}
+
+
+
+.container {
+	
+	 	text-decoration-color: #fff;
+	
+	
+}
+
+canvas {
+	width: 100%;
+	height:100%;
+}
+.ancho-letras{
+	font-family: 'fuentesita';
+	color: white;
+
+}
+body{
+	font-family: 'Raleway', sans-serif;
+	background-color: white;
+	color: white;
+}
+.yoimagen{
+	margin-top: -50px;
+	border: 2px solid #ddd;
+}
